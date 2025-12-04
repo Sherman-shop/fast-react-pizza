@@ -48,7 +48,7 @@ function CreateOrder() {
 
       <Form method="POST">
         <div>
-          <label>First Name</label>Form
+          <label>First Name</label>
           <input type="text" name="customer" required />
         </div>
 
