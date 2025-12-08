@@ -1,4 +1,4 @@
-import Createuser from "../features/user/CreateUser";
+import CreateUser from "../features/user/CreateUser";
 
 function Home() {
   return (
@@ -7,11 +7,11 @@ function Home() {
         The best pizza.
         <br />
         <span className="text-yellow-500">
-        Straight out of the oven, straight to you.
+        Straight out of the oven, straight Uto you.
         </span>
       </h1>
 
-      <Createuser />
+      <CreateUser />
     </div>
   );
 }
