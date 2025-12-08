@@ -1,6 +1,7 @@
-import { Link } from 'react-router-dom';
+import Button from '../../ui/Button';
+import LinkButton from '../../ui/LinkButton';
 
-const fakeCart = [
+const _fakeCart = [
   {
     pizzaId: 12,
     name: 'Mediterranean',
@@ -25,16 +26,16 @@ const fakeCart = [
 ];
 
 function Cart() {
-  const cart = fakeCart;
+  // const cart = fakeCart;
 
   return (
     <div>
-      <Link to="/menu" className='text-sm text-blue-400 hover:text-blue-800 hover:underline'>&larr; Back to menu</Link>
+      <LinkButton to="/menu">&larr; Back to menu</LinkButton>
 
       <h2>Your cart, %NAME%</h2>
 
       <div>
-        <Link to="/order/new">Order pizzas</Link>
+        <Button to="/order/new">Order pizzas</Button>
         <button>Clear cart</button>
       </div>
     </div>
